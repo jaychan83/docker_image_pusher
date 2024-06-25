@@ -13,3 +13,4 @@ v2raya/v2raya:latest
 python:latest
 ubuntu:latest
 xiaoyaliu/alist
+--platform=linux/arm/v7 xiaoyaliu/alist
