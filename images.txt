@@ -2,8 +2,6 @@ nginx:latest
 #支持私库
 k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 xhofe/alist:latest
-#支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
 tailscale/tailscale:latest
 gdy666/lucky:latest
 p3terx/aria2-pro:latest
@@ -12,5 +10,6 @@ raydigitallife/qbitorrent-nox:latest
 v2raya/v2raya:latest
 python:latest
 ubuntu:latest
-xiaoyaliu/alist
+xiaoyaliu/alist:hostmode
+#支持指定架构
 --platform=linux/arm/v7 xiaoyaliu/alist
